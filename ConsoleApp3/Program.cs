@@ -29,6 +29,7 @@ namespace ConsoleApp3
             l.Output();
             l.RemoveElement(5);
             l.Output();
+            l.Output();
             /* int a = Convert.ToInt32(Console.ReadLine());
              int b = Convert.ToInt32(Console.ReadLine());
              try

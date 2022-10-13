@@ -7,7 +7,7 @@ using System.Xml.Schema;
 
 namespace ConsoleApp3
 {
-    internal class ArrayList
+    internal class MyCustomArray
     {
         public int length { get; private set; }
         private int capacity;
