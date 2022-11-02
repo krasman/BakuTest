@@ -9,6 +9,7 @@ namespace ConsoleApp3
     internal abstract class Figure
     {
         public double area;
+        public double perimetr;
         public abstract void CalculateArea();
         public override string ToString()
         {
