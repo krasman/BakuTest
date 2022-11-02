@@ -14,6 +14,7 @@ namespace ConsoleApp3
         {
             this.radius = radius;
             this.CalculateArea();
+            this.CalculatePerimetr();
         }
 
         public override string ToString()
@@ -24,6 +25,11 @@ namespace ConsoleApp3
         public override void CalculateArea()
         {
             this.area= Math.PI * radius * radius;
+        }
+
+        public void CalculatePerimetr()
+        {
+            this.perimetr= 2 * Math.PI * radius;
         }
     }
 }
