@@ -56,7 +56,7 @@ namespace ConsoleApp3
             }
             else return -1;
         }
-        public ArrayList(int length)
+        public MyCustomArray(int length)
         {
             this.capacity = length;
             this.array = new int[length];
